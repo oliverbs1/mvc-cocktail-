@@ -26,4 +26,9 @@ $(function () {
         });
     });
 
+    (function () {
+        data[0].ingredient.split(',');
+        data[0].ingredient.splice(2, 1);
+        data[0].ingredient.join(',');
+    });
 });
