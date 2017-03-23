@@ -7,8 +7,8 @@ module.exports = {
     init: function () {
         var app = express();
 
-        app.listen(6001, function () {
-            console.log('listening on *:6001');
+        app.listen(1337, function () {
+            console.log('listening on *:1337');
         });
 
         this.server = app;

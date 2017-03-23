@@ -9,7 +9,7 @@ module.exports = {
             user: 'root',
             password: 'root',
             port: '/Applications/MAMP/tmp/mysql/mysql.sock',
-            database: 'Bar'
+            database: 'mvccocktail'
         })
     },
 

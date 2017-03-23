@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/LaCarte.css">
+    <link rel="stylesheet" href="assets/meyer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <p>mogito : sucre de canne en poudre , citron vert , menthe , eau gazeuse , rhum , glaçons - 10€</p>
+        <p>cosmopolitan : vodka , cranberry , citron vert - 10€</p>
+        <p>martini : gin , vermouth dry - 10€</p>
+        <p>pina colada : rhum blanc , rhum ambré , jus d'ananas , lait de coco - 10€</p>
+    </div>
+
+
+    <button id="lacarte" class="button pos">La carte</button>
+    <ul id="cartelist"></ul>
+
+    <form id="adding" class="cock">
+        <input type="text" id="addingredient" name="addingredient" placeholder="Enter your ingredient" />
+        <input id="pass" type="submit" value="subscribe" />
+    </form>
+
+
+    <h2>Votre commande</h2>
+
+    <form id="cocktailcreate" class="cock">
+        <SELECT id="name" name="name" size="1">
+            <OPTION>mogito
+                <OPTION>cosmopolitan
+                    <OPTION>martini
+                        <OPTION>pina colada
+        </SELECT>
+        <input type="text" id="ingredient" name="ingredient" placeholder="Enter your ingredient" />
+        <input id="pass" type="submit" value="subscribe" />
+    </form>
+
+    <p id="ident"></p>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+
+
+</html>
